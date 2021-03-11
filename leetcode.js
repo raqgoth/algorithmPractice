@@ -63,3 +63,4 @@ var twoSum = function(nums, target) {
     }
 };
 // ****Math.abs: absolute number, a positive number ********
+//math.floor : returns the largest integer less than or equal to a given number.
