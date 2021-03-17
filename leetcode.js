@@ -64,3 +64,22 @@ var twoSum = function(nums, target) {
 };
 // ****Math.abs: absolute number, a positive number ********
 //math.floor : returns the largest integer less than or equal to a given number.
+
+var twoSum = function(nums, target) {
+    //do something
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i+1; j < nums.length; j++) {
+            if (nums [i] + nums [j] === target) {
+                return [i,j]
+            }
+            
+        }
+    }
+   
+     
+};
+
+//input:
+// nums = [2,7,11,15]
+//return array with indices of 2 that add up to target 
+// [1,2]
